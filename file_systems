@@ -1,0 +1,34 @@
+File Systems
+
+What are File Systems: FAT, FAT32, exFAT, and NTFS
+A file system is essentially the way your computer organizes and manages data on a storage device. Think of it as the librarian of your digital world, keeping track of where everything is stored and how to find it quickly.   
+
+How File Systems Work
+Structure: They create a hierarchical structure of directories and files, similar to folders and documents on your desktop.   
+Data Allocation: They determine how data is stored on the physical storage device (like a hard drive or SSD).   
+Access Control: They manage permissions, ensuring that only authorized users can access specific files or directories.   
+Metadata: They store information about files, such as creation date, size, and type.
+
+FAT (File Allocation Table)
+Oldest file system.
+Simple structure, easy to understand.   
+Limited file size and partition size.   
+Rarely used today.
+
+FAT32
+Successor to FAT.   
+Improved file size and partition limits compared to FAT.   
+Widely compatible with various operating systems and devices.   
+Common for USB drives, SD cards, and external hard drives.
+
+exFAT (Extended FAT)
+Designed for flash drives and other removable media.   
+Combines the simplicity of FAT32 with the larger file size and partition support of NTFS.
+Better performance than FAT32 for large files.   
+Wide compatibility, though not as universal as FAT32.
+
+NTFS (New Technology File System)
+Modern file system used by Windows.   
+Advanced features like file permissions, encryption, and journaling.   
+Supports large file sizes and partitions.   
+Less compatible with other operating systems compared to FAT32 and exFAT.
