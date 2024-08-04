@@ -1,6 +1,7 @@
 
 //Parameter Passing
-//pass by value
+//pass by value - A copy of the actual arguent is passed to the function. Changes made to the parameter
+                  do not affect the original variable.
 #include <stdio.h>
 
 void swap(int a, int b) {
@@ -16,7 +17,8 @@ int main() {
     return 0;
 }
 
-//pass by reference
+//pass by reference - The address of the actual argument is passed to the function.
+                      Changes made to the parameter inside the function directly affect the original variable.
 #include <stdio.h>
 
 void swap(int *a, int *b) {
